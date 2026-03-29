@@ -22,6 +22,111 @@
         <dc:title xml:lang="en">MAO: </dc:title>
         <owl:versionInfo xml:lang="en">Vision Release: 1.0.01</owl:versionInfo>
     </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.ontochina.org/MAO_0000009 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.ontochina.org/MAO_0000009">
+        <rdfs:label xml:lang="en">channel of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.ontochina.org/MAO_0000001 -->
+
+    <owl:Class rdf:about="http://purl.ontochina.org/MAO_0000001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <rdfs:label xml:lang="en">经脉</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.ontochina.org/MAO_0000002 -->
+
+    <owl:Class rdf:about="http://purl.ontochina.org/MAO_0000002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <rdfs:label xml:lang="en">穴</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.ontochina.org/MAO_0000003 -->
+
+    <owl:Class rdf:about="http://purl.ontochina.org/MAO_0000003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <rdfs:label xml:lang="en">络脉</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.ontochina.org/MAO_0000004 -->
+
+    <owl:Class rdf:about="http://purl.ontochina.org/MAO_0000004">
+        <rdfs:subClassOf rdf:resource="http://purl.ontochina.org/MAO_0000001"/>
+        <rdfs:label xml:lang="en">正经</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.ontochina.org/MAO_0000005 -->
+
+    <owl:Class rdf:about="http://purl.ontochina.org/MAO_0000005">
+        <rdfs:subClassOf rdf:resource="http://purl.ontochina.org/MAO_0000004"/>
+        <rdfs:label xml:lang="en">手经</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.ontochina.org/MAO_0000006 -->
+
+    <owl:Class rdf:about="http://purl.ontochina.org/MAO_0000006">
+        <rdfs:subClassOf rdf:resource="http://purl.ontochina.org/MAO_0000005"/>
+        <rdfs:label xml:lang="en">手阴经</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.ontochina.org/MAO_0000007 -->
+
+    <owl:Class rdf:about="http://purl.ontochina.org/MAO_0000007">
+        <rdfs:subClassOf rdf:resource="http://purl.ontochina.org/MAO_0000006"/>
+        <obo:IAO_0000115>手太阴肺经是一种。。。。</obo:IAO_0000115>
+        <obo:IAO_0000117>Suyuan, Weiqi, Wenjia, Oliver</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.....</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">手太阴肺经</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.ontochina.org/MAO_0000008 -->
+
+    <owl:Class rdf:about="http://purl.ontochina.org/MAO_0000008">
+        <rdfs:subClassOf rdf:resource="http://purl.ontochina.org/MAO_0000004"/>
+        <rdfs:label xml:lang="en">足经</rdfs:label>
+    </owl:Class>
 </rdf:RDF>
 
 
