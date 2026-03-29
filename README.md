@@ -1,5 +1,5 @@
 # MAO
-MAO: Meridian and Acupoint Ontology
+MAO: Meridian and Acupoint Ontology （经络穴位本体）
 
 MAO is a traditional Chinese medicine ontology with a focus on ontologically representing meridians and acupoints in traditional Chinese medicine.
 
