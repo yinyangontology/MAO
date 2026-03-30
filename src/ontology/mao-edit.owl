@@ -11,16 +11,16 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/mao.owl">
         <owl:imports rdf:resource="http://purl.ontochina.org/yyo.owl"/>
-        <dc:creator>Suyuan Pan</dc:creator>
+        <dc:creator>Suyuan Peng</dc:creator>
         <dc:creator>Weiqi Wang</dc:creator>
-        <dc:creator>Wenjia Li</dc:creator>
+        <dc:creator>Wenjie Li</dc:creator>
         <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YH)</dc:creator>
-        <dc:date xml:lang="en">3-29-2026</dc:date>
+        <dc:date xml:lang="en">3-30-2026</dc:date>
         <dc:description xml:lang="en">MOA is a formal traditional Chinese medicine ontology in the area of merians and acpupuctures.</dc:description>
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:subject xml:lang="en">MAO: A biomedical ontology in the area of ....</dc:subject>
         <dc:title xml:lang="en">MAO: </dc:title>
-        <owl:versionInfo xml:lang="en">Vision Release: 1.0.01</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">Vision Release: 1.0.02</owl:versionInfo>
     </owl:Ontology>
     
 
